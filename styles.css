@@ -121,22 +121,23 @@ p,h1{
 .player--winner{
   background-color: #000000;
 }
-@media (width <= 740px) {
+@media (width <= 370px) {
   .btn--new {
-    top:-230px;
-    left: -300px;
+    top:-420px;
+    left: 10px;
   }
   .btn--roll {
-    top:-230px;
-    left: -170px;
+    top:-420px;
+    left: -100px;
   }
   .btn--hold {
-    top:-230px;
-    left: -75px;
+    top:-420px;
+    left: 100px;
   }
   .dice {
-    top:-300px;
-    left: -180px;
+    top:-480px;
+    left: 5px;
     height: 40px;
   }
 }
+
