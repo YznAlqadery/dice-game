@@ -121,7 +121,7 @@ p,h1{
 .player--winner{
   background-color: #000000;
 }
-@media (width <= 370px) {
+@media (width <= 400px) {
   .btn--new {
     top:-420px;
     left: 10px;
@@ -138,6 +138,63 @@ p,h1{
     top:-480px;
     left: 5px;
     height: 40px;
+  }
+}
+@media (width >= 370px) {
+  .btn--new {
+    top:-220px;
+    left: -180px;
+  }
+  .btn--roll {
+    top:-220px;
+    left: -300px;
+  }
+  .btn--hold {
+    top:-220px;
+    left: -80px;
+  }
+  .dice {
+    top:-280px;
+    left: -180px;
+    height: 40px;
+  }
+}
+@media (width <= 400px) {
+  .btn--new {
+    top:-420px;
+    left: 10px;
+  }
+  .btn--roll {
+    top:-420px;
+    left: -100px;
+  }
+  .btn--hold {
+    top:-420px;
+    left: 100px;
+  }
+  .dice {
+    top:-480px;
+    left: 5px;
+    height: 40px;
+  }
+}
+@media (width >= 740px) {
+  .btn--new {
+    top:-150px;
+    left: -375px;
+  }
+  .btn--roll {
+    top:50px;
+    left: -375px;
+  }
+  .btn--hold {
+    top:120px;
+    left: -375px;
+  }
+  .dice{
+  top:-80px;
+  left: -375px;
+  height: 80px;
   }
 }
 
