@@ -1,0 +1,142 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1d3557;
+  color: #f1faee;
+  font-family: 'Arvo', serif;
+}
+section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer{
+  border-top: 5px solid #edf2f4;
+  margin-top: 20px;
+}
+a{
+  color: #edf2f4;
+  text-decoration: none;
+}
+main{
+  overflow: hidden;
+}
+h2{
+  font-size: 28px;
+}
+p,h1{
+  text-align: center;
+}
+.links{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 25px;
+}
+.buttons{
+  position: relative;
+}
+.player{
+  width: 350px;
+ padding: 10px;
+ background-color: #e63946;
+}
+.dice {
+  position: absolute;
+  top:-80px;
+  left: -375px;
+  transform: translateX(-50%);
+  height: 80px;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+.hidden{
+  display: none;
+}
+.player--active{
+  background-color: rgba(168, 218, 220, 0.4);
+}
+.score,.current,h2{
+  text-align: center;
+}
+.score,.current-score{
+  font-size: 30px;
+  margin: 0;
+}
+.current{
+  margin: 70px auto;
+  width: 50%;
+  color:#1d3557;
+  background-color: #f1faee;
+  border-radius: 9px;
+  padding: 6px;
+  transition: all 0.75s;
+}
+.current-label{
+  margin-top:5px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #444;
+  background: none;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.25s;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 7px;
+  border-radius:20px;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+.btn--new {
+  top:-150px;
+  left: -375px;
+}
+.btn--roll {
+  top:50px;
+  left: -375px;
+}
+.btn--hold {
+  top:120px;
+  left: -375px;
+}
+.btn:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+  outline: none;
+}
+.player--winner{
+  background-color: #000000;
+}
+@media (width <= 740px) {
+  .btn--new {
+    top:-230px;
+    left: -300px;
+  }
+  .btn--roll {
+    top:-230px;
+    left: -170px;
+  }
+  .btn--hold {
+    top:-230px;
+    left: -75px;
+  }
+  .dice {
+    top:-300px;
+    left: -180px;
+    height: 40px;
+  }
+}
