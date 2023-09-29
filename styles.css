@@ -41,7 +41,7 @@ p,h1{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 .player{
   width: 350px;
@@ -55,6 +55,7 @@ p,h1{
 .dice-div{
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .hidden{
   display: none;
