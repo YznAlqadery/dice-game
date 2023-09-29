@@ -55,7 +55,7 @@ p,h1{
 .dice-div{
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 .hidden{
   display: none;
@@ -85,6 +85,7 @@ p,h1{
   margin-bottom: 1rem;
 }
 .btn {
+  color: #1d3557;
   background: none;
   border: none;
   font-size: 20px;
